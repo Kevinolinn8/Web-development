@@ -1,4 +1,4 @@
-
+/**************************** TAGS *******************/
   body {
     background-color: #e0ece4;
   }
@@ -11,10 +11,32 @@
     width: 5%;
   }
 
-  h1 {
-    color: #797a7e;
+  h1:hover {
+    color: blue;
   }
 
   h3 {
     color: #797a7e;
   }
+
+
+/**************************** CLASS Selectors *******************/
+
+/* class selectors can be assigned to multiple elements */
+/* essentially we can have multiple things be in the same class */
+
+.profile_pic{
+  background-color: grey; /individual customization with class /
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+/***************************** ID SELECTORS *******************/
+
+/* ID Selectors are only for ONE instance. */
+
+#heading {
+  color:#797a7e;
+}
